@@ -1,0 +1,56 @@
+body{ 
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: url('./resources/bkgd.jpeg')center/cover no-repeat;
+}
+
+.images{
+  align-content: center;
+  background-color: rgb(22, 18, 37);
+  flex: 0 0 80%;
+  min-height: 70vh;
+  background: url(./resources/band0.jpeg)center/cover no-repeat;
+  border-radius: 12px;
+  box-shadow: 5px 10px rgba(6, 5, 8, 0.9);
+  position: relative;
+}
+
+.btn{
+  display: inline-block;
+  border: 3px solid rgba(31, 16, 61, 0.9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5rem;
+  padding: .5rem;
+  border-radius: 15%;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 2px 5px rgba(0, 0, 0, 0.9);
+  outline: none;
+}
+
+.prevBtn{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%)
+}
+
+.nextBtn{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%)
+}
+
+.btn:active{
+  background: grey;
+  box-shadow: 1px 1px grey;
+}
+
+.btn:hover{
+  background: rgba(31, 16, 61, 0.9);
+  color: white;
+  transition: all 0.2s ease 0s;
+}
+

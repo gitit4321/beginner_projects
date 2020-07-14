@@ -1,0 +1,46 @@
+body{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(92, 129, 165);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
+
+label {
+  font-size: 1.8rem;
+}
+.container{
+  text-align: center;
+  padding: 2.5rem;
+  margin: 0 2.5rem;
+  background-color: rgb(168, 173, 177);
+  border-radius: 5px;
+}
+
+#input{
+  padding: .4rem;
+  margin: .7rem;
+}
+
+.button{
+  background-color: rgb(115, 148, 180);
+  padding: .3rem;  
+  font-size: 1rem;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.button:hover{
+  background-color: rgba(92, 129, 165, 0.7);
+}
+
+#output{
+  font-size: 2rem;
+  background-color: lemonchiffon;
+  padding: 1rem;
+  border-radius: 7px;
+}
